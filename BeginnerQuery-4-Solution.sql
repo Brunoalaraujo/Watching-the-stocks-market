@@ -1,0 +1,13 @@
+SELECT *
+FROM stocks
+ORDER BY price DESC;
+
+SELECT *
+FROM stocks
+ORDER BY price ASC
+LIMIT 1;
+
+SELECT *
+FROM stocks
+ORDER BY price DESC
+LIMIT 1;
